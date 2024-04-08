@@ -1,0 +1,148 @@
+/************ Banner Css ************/
+.Steps {
+    margin-top: 0;
+    padding: 50px 0 50px 0;
+    /* background-image: url('../../asstes/img/banner-bg1.png'); */
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .Steps .titulo {
+    color: #121212;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 45px;
+    font-weight: 700;
+  }
+  
+  .Steps img{
+    width: 100%;
+      margin: 0 auto;
+
+  }
+
+  .Steps .steps-pension{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  } 
+
+  .Steps .steps-pension span {
+    background-color: #fff;
+    width: 115px;
+    height: 65px;
+    padding: 15px;
+    text-align: center;
+    margin: 0 20px 0 20px;
+    border-radius: 100%;
+    border: 3px solid #3c3c3c;
+    box-shadow: 3px 4px 0px 0px rgba(0,0,0,0.75);
+    font-family: 'poppins', sans-serif;
+    font-size: 35px;
+    color: #3c3c3c;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Steps .steps-pension .guion{
+    height: 6rem;
+    border: 4px solid #3c3c3c;
+    border-color: none;
+    border-style: dashed ;
+    position: relative;
+    top: 85px;
+    right: 55px;
+
+    
+  }
+
+
+
+.Steps .steps-content{
+    flex-direction: column;
+    margin: 0 0 20px 20px;
+}
+
+.Steps .steps-content h4{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #1EC645;
+    padding: 10px 10px;
+    box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+
+}
+
+
+
+
+  .Steps .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    border-radius: 100%;
+    text-align: center;
+    color: #3c3c3c;
+    font-size: 30px;
+    padding: 13px;
+
+
+  }
+
+    .Steps p {
+    color: #121212;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 100%;
+  }
+  
+  /*== Media Queries (dispositivos medianos) ==*/
+  @media screen and (max-width: 1024px) {
+    .Steps .steps-pension span {
+        width: 75px;
+        height: 60px;
+    }
+
+    .Steps .steps-pension .guion{
+        top: 70px;
+        right: 50px;
+        height: 6rem;
+    }
+
+    .Steps .steps-content{
+        margin: 0 auto;
+
+    }
+    
+    }
+    
+    /*== Media Queries (dispositivos pequeños) ==*/
+    @media screen and (max-width: 600px) {
+        
+        .Steps .steps-pension{
+            margin: 0 auto;
+        }
+
+        .Steps .steps-content{
+            flex-direction: column;
+            margin: 0 10px 50px 5px;
+        }
+        .Steps .steps-pension span {
+            margin: 0 auto;
+            width: 80px;
+            height: 70px;
+            padding: 20px;
+        }
+        .Steps .steps-pension .guion{
+            top: 100px;
+            right: 30px;
+        }
+
+  
+    
+    
+    }
+  
+  
+  

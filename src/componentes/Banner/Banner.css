@@ -1,0 +1,68 @@
+/************ Banner Css ************/
+ .banner {
+  margin-top: 0;
+  padding: 160px 0 100px 0;
+  background-image: url('../../asstes/img/banner-bg1.png');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner img{
+    margin: 0 auto;
+}
+
+.banner .tagline {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  border: 3px solid #3f3f3f;
+  font-size: 20px;
+  margin-bottom: 16px;
+  display: inline-block;
+  color: #121212;
+}
+.banner h1 {
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+  color: #121212;
+  line-height: 90px;
+}
+
+.banner  h1 span {
+    color: #fff;
+    background-color: #1EC645;
+    padding: 1px 10px;
+    box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.75);
+
+}
+
+.banner p {
+  color: #121212;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+}
+
+/*== Media Queries (dispositivos medianos) ==*/
+@media screen and (max-width: 1024px) {
+
+  
+  }
+  
+  /*== Media Queries (dispositivos pequeños) ==*/
+  @media screen and (max-width: 600px) {
+    .banner img{
+        display: none;
+    }
+
+  
+  
+  }
+
+

@@ -1,0 +1,92 @@
+/************ Faq Css ************/
+.Faq {
+    margin-top: 0;
+    padding: 50px  250px ;
+    /* background-image: url('../../asstes/img/banner-bg1.png'); */
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+
+  .Faq .titulo {
+    color: #121212;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 45px;
+    font-weight: 700;
+  }
+
+  .Faq .Faq-contenedor{
+    margin: 0 auto;
+    background: #fff;
+    border: 3px solid #121212;
+    border-radius: 20px;
+    box-shadow: 5px 6px 0px 0px rgba(0,0,0,0.75);
+    padding: 50px 120px;
+    
+  }
+
+  .Faq .Faq-contenedor span a{
+    text-decoration: none;
+    color: #1ec645;
+    font-weight: 600;
+
+  }
+
+  .Faq .accordion-body{
+    border: 3px solid #121212;
+  }
+
+  .Faq .accordion-item{
+    border: none;
+  }
+
+  .Faq button .accordion-button collapsed{
+    border: 3px solid #121212;
+    margin-top: 20px;
+  }
+
+  .Faq .accordion-item:first-of-type>.accordion-header .accordion-button {
+    border: 3px solid #121212;
+  }
+
+.Faq .accordion-button:not(.collapsed) {
+    background: #1ec645;
+    color: #fff;
+    box-shadow: none;
+    border: 3px solid #121212;
+    
+}
+
+.Faq button:focus:not(:focus-visible){
+    border: 3px solid #121212;
+}
+
+.Faq [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled){
+    border: 3px solid #121212;
+    margin-top: 8px;
+}
+
+/*== Media Queries (dispositivos medianos) ==*/
+@media screen and (max-width: 1024px) {
+    .Faq {
+        padding: 50px 10px;
+    }
+    .Faq .Faq-contenedor{
+        padding: 30px 20px;
+    }
+
+
+}
+    
+/*== Media Queries (dispositivos pequeños) ==*/
+ @media screen and (max-width: 600px) {
+    .Faq {
+        padding: 50px 10px;
+    }
+    .Faq .Faq-contenedor{
+        padding: 30px 20px;
+    }
+
+ }

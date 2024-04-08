@@ -1,0 +1,81 @@
+/************ Channel Css ************/
+
+.Channel {
+    margin-top: 0;
+    padding: 50px 0 50px 0;
+    /* background-image: url('../../asstes/img/banner-bg1.png'); */
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .Channel .titulo {
+    color: #121212;
+    text-align: left;
+    padding-bottom: 50px;
+    font-size: 45px;
+    font-weight: 700;
+  }
+
+  .Channel .channel-texto{
+    text-align: left;
+  }
+
+  .Channel p{
+    color: #121212;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 100%;
+
+  }
+  .Channel p b{
+    font-size: 19px;
+
+  }
+
+  .Channel button {
+    font-weight: 700;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 18px 34px;
+    font-size: 18px;
+    position: relative;
+     background-color: #1EC645;
+     transition: 0.3s ease-in-out;
+    border-radius: 25px;
+  }
+  .Channel button span {
+    z-index: 1;
+  }
+
+  .Channel button:hover {
+    background: #3F3F3F;
+  }
+
+  /*== Media Queries (dispositivos medianos) ==*/
+  @media screen and (max-width: 1024px) {
+
+  }
+  
+  /*== Media Queries (dispositivos pequeños) ==*/
+  @media screen and (max-width: 600px) {
+    .Channel .titulo {
+        text-align: center;
+    }
+
+    .Channel .channel-texto{
+        text-align: center;
+    }
+
+    .Channel button {
+        margin: 0 auto;
+    }
+
+    .Channel img{
+        display: none;
+    }
+
+  
+  
+  }

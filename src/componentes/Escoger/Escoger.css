@@ -1,0 +1,87 @@
+/************ Escoger Css ************/
+.escoger {
+    margin-top: 0;
+    padding: 50px 0 50px 0;
+    /* background-image: url('../../asstes/img/banner-bg1.png'); */
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .escoger .titulo {
+    color: #121212;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 45px;
+    font-weight: 700;
+  }
+
+  .escoger .escoger-card{
+    background: #fff;
+    border: 3px solid #3c3c3c;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 5px 6px 0px 0px rgba(0,0,0,0.75);
+  }
+
+
+  .escoger .escoger-content{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .escoger .escoger-titulo{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #121212;
+    margin: 10px 0 20px 0;
+
+  }
+
+  .escoger .escoger-titulo img {
+    width: 5rem;
+    margin-bottom: 20px;
+  }
+
+  .escoger .escoger-content p{
+    color: #121212;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 100%;
+    text-align:left;
+
+  }
+
+  .escoger .escoger-content{
+    flex-direction: column;
+    margin: 0 10px 0 20px;
+}
+
+
+
+  /*== Media Queries (dispositivos medianos) ==*/
+  @media screen and (max-width: 1024px) {
+    .escoger .cards{
+        margin-bottom: 20px;
+        
+    }
+
+    }
+    
+    /*== Media Queries (dispositivos pequeños) ==*/
+    @media screen and (max-width: 600px) {
+
+        .escoger .cards{
+            margin: 0 10px 20px 0;
+            
+        }
+  
+
+    
+    }
+  
+  
+  
